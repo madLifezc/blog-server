@@ -15,7 +15,7 @@ import java.util.Map;
  * 网盘文件服务类
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年6月13日17:11:04
  */
 public interface NetworkDiskService extends SuperService<NetworkDisk> {

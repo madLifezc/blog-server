@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * RequestLimitConfig
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2020-03-06-18:58
  */
 @ConfigurationProperties(prefix = "request-limit")

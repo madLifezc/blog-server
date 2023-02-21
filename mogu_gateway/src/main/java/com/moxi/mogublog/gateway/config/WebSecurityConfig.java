@@ -9,7 +9,7 @@
 //
 ///**
 // * SprigSecurity配置
-// * @author 陌溪
+// * @author MadLife
 // * @date 2020年1月19日18:13:30
 // */
 //@Configuration

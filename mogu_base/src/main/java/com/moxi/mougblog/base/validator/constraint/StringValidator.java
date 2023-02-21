@@ -9,7 +9,7 @@ import javax.validation.ConstraintValidatorContext;
 /**
  * 不为空字符串
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2019年12月4日13:17:17
  */
 public class StringValidator implements ConstraintValidator<NotBlank, String> {

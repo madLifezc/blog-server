@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.enums;
 /**
  * 友链状态枚举类
  *
- * @Author: 陌溪
+ * @Author: MadLife
  * @Date: 2020年3月15日09:00:34
  */
 public class ELinkStatus {

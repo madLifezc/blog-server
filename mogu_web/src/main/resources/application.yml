@@ -22,7 +22,7 @@ data:
 file:
   upload:
     path: /usr/local/data
-
+  
 # 蘑菇博客登录默认密码
 DEFAULE_PWD: mogu2018
 
@@ -126,8 +126,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1 #rabbitmq的主机ip
     port: 5672
-    username: root
-    password: root
+    username: guest
+    password: guest
 
   boot:
     admin:

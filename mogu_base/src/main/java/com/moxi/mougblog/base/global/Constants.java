@@ -1,7 +1,7 @@
 package com.moxi.mougblog.base.global;
 
 /**
- * @Author: 陌溪
+ * @Author: MadLife
  * @Date: 2019年12月4日22:47:53
  */
 public class Constants {

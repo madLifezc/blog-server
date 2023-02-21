@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 import static java.lang.annotation.ElementType.*;
 
 /**
- * @author: 陌溪
+ * @author: MadLife
  * @date: 2019年12月4日13:12:52
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})

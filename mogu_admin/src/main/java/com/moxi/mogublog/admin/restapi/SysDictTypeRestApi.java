@@ -32,7 +32,7 @@ import java.util.List;
  * 字典类型 RestApi
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:16:31
  */
 @RestController

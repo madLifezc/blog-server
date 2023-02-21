@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * mogu_admin相关接口
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2020年1月21日22:19:10
  */
 

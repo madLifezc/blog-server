@@ -40,7 +40,7 @@ import java.util.concurrent.TimeUnit;
  * 第三方登录请移步AuthRestApi
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年5月6日17:50:23
  */
 @RestController

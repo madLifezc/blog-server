@@ -9,7 +9,7 @@ import lombok.Data;
 /**
  * ResourceSortVO
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2020年1月9日19:09:00
  */
 @Data

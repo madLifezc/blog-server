@@ -17,7 +17,7 @@ import java.util.List;
  * 字典数据查询 RestApi
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年3月11日10:37:13
  */
 @RestController

@@ -21,7 +21,7 @@ import org.lionsoul.ip2region.*;
 /**
  * IP相关工具类
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2020年1月21日10:36:35
  */
 @Slf4j

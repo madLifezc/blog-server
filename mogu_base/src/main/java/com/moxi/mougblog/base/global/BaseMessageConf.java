@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.global;
 /**
  * 消息通知
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2019-12-29-20:16
  */
 public class BaseMessageConf {

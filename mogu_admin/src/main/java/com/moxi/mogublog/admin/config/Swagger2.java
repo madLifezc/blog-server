@@ -58,7 +58,7 @@ public class Swagger2 {
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("蘑菇博客Admin接口文档")
+                .title("博客Admin接口文档")
                 .description("简单优雅的restfun风格")
                 .version("1.0")
                 .build();

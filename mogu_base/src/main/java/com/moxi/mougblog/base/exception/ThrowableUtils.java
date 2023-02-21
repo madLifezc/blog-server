@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author 陌溪
+ * @author MadLife
  * @date 2019年12月4日22:47:18
  */
 public class ThrowableUtils {

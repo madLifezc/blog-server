@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.global;
 /**
  * SQL字段常量
  *
- * @author 陌溪
+ * @author MadLife
  */
 public class BaseSQLConf {
 

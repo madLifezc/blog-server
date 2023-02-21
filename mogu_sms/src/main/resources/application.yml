@@ -24,12 +24,12 @@ spring:
     port: 6379
     #password: mogu2018  # 客户端没有设置密码，服务器中redis默认密码为 mogu2018
 
-  #RabbitMq
+#  RabbitMq
   rabbitmq:
     host: 127.0.0.1 #rabbitmq的主机ip
     port: 5672
-    username: root
-    password: root
+    username: guest
+    password: guest
 
   #mail
   mail:

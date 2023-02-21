@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
 /**
  * 字符串范围约束
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2019年12月4日22:48:34
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})

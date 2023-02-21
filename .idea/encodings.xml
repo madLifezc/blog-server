@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/mogu_admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_admin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_base/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_base/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_commons/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_eureka/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_eureka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_monitor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_monitor/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_picture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_picture/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_search/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_sms/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_spider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_spider/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_utils/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_xo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_xo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_zipkin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mogu_zipkin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

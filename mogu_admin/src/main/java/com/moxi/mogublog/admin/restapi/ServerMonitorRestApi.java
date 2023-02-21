@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * 服务监控RestApi（CPU、内存、核心）
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2020年6月3日09:11:16
  */
 

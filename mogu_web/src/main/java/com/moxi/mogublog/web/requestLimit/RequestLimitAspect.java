@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * RequestLimitAspect 请求限制切面实现
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2020-03-06-19:05
  */
 @Aspect

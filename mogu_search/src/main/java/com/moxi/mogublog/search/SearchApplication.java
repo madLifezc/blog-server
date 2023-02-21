@@ -13,7 +13,7 @@ import org.springframework.web.filter.CorsFilter;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author 陌溪
+ * @author MadLife
  * @date 2020年1月10日21:08:23
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableDiscoveryClient
 @EnableFeignClients("com.moxi.mogublog.commons.feign")
 @ComponentScan(basePackages = {
-        "com.moxi.mogublog.config.feign",
+//        "com.moxi.mogublog.config.feign",
         "com.moxi.mogublog.utils",
         "com.moxi.mogublog.search.config",
         "com.moxi.mogublog.search.mapper",

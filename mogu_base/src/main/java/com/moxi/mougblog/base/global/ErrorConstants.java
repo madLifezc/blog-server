@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.global;
 /**
  * 状态码常量
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2019-12-04-14:56
  */
 public class ErrorConstants {

@@ -10,7 +10,7 @@ import com.moxi.mougblog.base.mapper.SuperMapper;
  * 字典类型 Mapper 接口
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:01:50
  */
 public interface SysDictTypeMapper extends SuperMapper<SysDictType> {

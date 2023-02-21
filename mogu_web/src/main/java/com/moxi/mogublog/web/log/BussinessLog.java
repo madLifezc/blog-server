@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 /**
  * 日志记录、自定义注解
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2020年2月27日08:55:02
  */
 @Target(ElementType.METHOD)

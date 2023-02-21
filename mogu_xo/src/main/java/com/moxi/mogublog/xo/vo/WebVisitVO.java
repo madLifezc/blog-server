@@ -9,7 +9,7 @@ import lombok.Data;
  * Web访问记录VO
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2019年12月18日21:58:18
  */
 @Data

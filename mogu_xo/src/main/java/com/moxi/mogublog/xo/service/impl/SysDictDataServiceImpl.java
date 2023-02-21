@@ -33,7 +33,7 @@ import java.util.concurrent.TimeUnit;
  * 字典数据 服务实现类
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:09:15
  */
 @Service

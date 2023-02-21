@@ -12,7 +12,7 @@ import java.util.List;
  * 字典类型 服务类
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:06:45
  */
 public interface SysDictTypeService extends SuperService<SysDictType> {

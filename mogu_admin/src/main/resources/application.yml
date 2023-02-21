@@ -106,9 +106,9 @@ spring:
   rabbitmq:
     host: 127.0.0.1 #rabbitmq的主机ip
     port: 5672
-    username: root
-    password: root
-
+    username: guest
+    password: guest
+    
   boot:
     admin:
       client:

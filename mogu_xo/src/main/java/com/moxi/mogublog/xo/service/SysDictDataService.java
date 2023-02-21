@@ -13,7 +13,7 @@ import java.util.Map;
  * 字典数据 服务类
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:06:45
  */
 public interface SysDictDataService extends SuperService<SysDictData> {

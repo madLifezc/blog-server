@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/blog-server.iml" filepath="$PROJECT_DIR$/.idea/blog-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_admin/mogu_admin.iml" filepath="$PROJECT_DIR$/mogu_admin/mogu_admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_base/mogu_base.iml" filepath="$PROJECT_DIR$/mogu_base/mogu_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_commons/mogu_commons.iml" filepath="$PROJECT_DIR$/mogu_commons/mogu_commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_eureka/mogu_eureka.iml" filepath="$PROJECT_DIR$/mogu_eureka/mogu_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_gateway/mogu_gateway.iml" filepath="$PROJECT_DIR$/mogu_gateway/mogu_gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_monitor/mogu_monitor.iml" filepath="$PROJECT_DIR$/mogu_monitor/mogu_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_picture/mogu_picture.iml" filepath="$PROJECT_DIR$/mogu_picture/mogu_picture.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_search/mogu_search.iml" filepath="$PROJECT_DIR$/mogu_search/mogu_search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_sms/mogu_sms.iml" filepath="$PROJECT_DIR$/mogu_sms/mogu_sms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_spider/mogu_spider.iml" filepath="$PROJECT_DIR$/mogu_spider/mogu_spider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_utils/mogu_utils.iml" filepath="$PROJECT_DIR$/mogu_utils/mogu_utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_web/mogu_web.iml" filepath="$PROJECT_DIR$/mogu_web/mogu_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_xo/mogu_xo.iml" filepath="$PROJECT_DIR$/mogu_xo/mogu_xo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mogu_zipkin/mogu_zipkin.iml" filepath="$PROJECT_DIR$/mogu_zipkin/mogu_zipkin.iml" />
+    </modules>
+  </component>
+</project>

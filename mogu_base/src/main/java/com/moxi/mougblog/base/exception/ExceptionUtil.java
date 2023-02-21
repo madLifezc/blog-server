@@ -5,7 +5,7 @@ import com.moxi.mougblog.base.global.ErrorConstants;
 import com.moxi.mougblog.base.vo.Result;
 
 /**
- * @Author: 陌溪
+ * @Author: MadLife
  * @Date: 2019年12月4日22:47:08
  */
 public class ExceptionUtil {

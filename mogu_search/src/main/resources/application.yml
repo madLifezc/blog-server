@@ -11,7 +11,7 @@ spring:
       password: password123
   data:
     elasticsearch:
-      cluster-name: elasticsearch
+      cluster-name: elasticsearch_zc_macpro
       cluster-nodes: localhost:9300
   #    solr:
   #      host: http://localhost:8080/solr

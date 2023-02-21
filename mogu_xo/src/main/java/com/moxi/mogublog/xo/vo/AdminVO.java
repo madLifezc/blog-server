@@ -10,7 +10,7 @@ import java.util.Date;
 /**
  * AdminVO
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2019-12-03-22:29
  */
 @Data

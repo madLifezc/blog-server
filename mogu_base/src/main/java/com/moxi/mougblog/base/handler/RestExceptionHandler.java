@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @description: 400 统一异常处理
- * @author: 陌溪
+ * @author: MadLife
  * @date: 2019年12月4日22:48:18
  */
 @ControllerAdvice

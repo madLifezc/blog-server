@@ -13,7 +13,7 @@ import java.util.List;
  * 存储信息服务类
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年6月13日17:22:32
  */
 public interface StorageService extends SuperService<Storage> {

@@ -14,7 +14,7 @@ import static java.lang.annotation.ElementType.*;
 /**
  * 是否为数字
  *
- * @author 陌溪
+ * @author MadLife
  * @date 2019年12月4日13:14:24
  */
 @Target({TYPE, ANNOTATION_TYPE, FIELD})

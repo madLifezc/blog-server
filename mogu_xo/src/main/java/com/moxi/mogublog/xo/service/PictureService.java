@@ -38,7 +38,7 @@ public interface PictureService extends SuperService<Picture> {
      * @param pictureVO
      */
     public String editPicture(PictureVO pictureVO);
-
+    
     /**
      * 批量删除图片
      *

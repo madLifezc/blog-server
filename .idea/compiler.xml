@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mogu_search" />
+        <module name="mogu_utils" />
+        <module name="mogu_admin" />
+        <module name="mogu_spider" />
+        <module name="mogu_monitor" />
+        <module name="mogu_commons" />
+        <module name="mogu_picture" />
+        <module name="mogu_web" />
+        <module name="mogu_eureka" />
+        <module name="mogu_xo" />
+        <module name="mogu_base" />
+        <module name="mogu_sms" />
+        <module name="mogu_gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="blog-server" target="1.8" />
+      <module name="mogu_admin" target="1.8" />
+      <module name="mogu_base" target="1.8" />
+      <module name="mogu_commons" target="1.8" />
+      <module name="mogu_eureka" target="1.8" />
+      <module name="mogu_gateway" target="1.8" />
+      <module name="mogu_monitor" target="1.8" />
+      <module name="mogu_picture" target="1.8" />
+      <module name="mogu_search" target="1.8" />
+      <module name="mogu_sms" target="1.8" />
+      <module name="mogu_spider" target="1.8" />
+      <module name="mogu_utils" target="1.8" />
+      <module name="mogu_web" target="1.8" />
+      <module name="mogu_xo" target="1.8" />
+      <module name="mogu_zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mogu_admin" options="-parameters" />
+      <module name="mogu_base" options="-parameters" />
+      <module name="mogu_commons" options="-parameters" />
+      <module name="mogu_eureka" options="-parameters" />
+      <module name="mogu_gateway" options="-parameters" />
+      <module name="mogu_monitor" options="-parameters" />
+      <module name="mogu_picture" options="-parameters" />
+      <module name="mogu_search" options="-parameters" />
+      <module name="mogu_sms" options="-parameters" />
+      <module name="mogu_spider" options="-parameters" />
+      <module name="mogu_utils" options="-parameters" />
+      <module name="mogu_web" options="-parameters" />
+      <module name="mogu_xo" options="-parameters" />
+    </option>
+  </component>
+</project>

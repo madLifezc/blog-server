@@ -6,7 +6,7 @@ import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
 /**
- * @author 陌溪
+ * @author MadLife
  * @date 2019年12月4日13:16:06
  */
 public class IntegerValidator implements ConstraintValidator<IntegerNotNull, Integer> {

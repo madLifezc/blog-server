@@ -18,7 +18,7 @@ import us.codecraft.webmagic.scheduler.QueueScheduler;
  * 博客爬取RestApi
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月8日11:02:09
  */
 @RestController

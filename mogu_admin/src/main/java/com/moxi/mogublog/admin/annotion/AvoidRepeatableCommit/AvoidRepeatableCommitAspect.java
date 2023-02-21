@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * 重复提交aop
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2020-04-23-12:12
  */
 @Aspect

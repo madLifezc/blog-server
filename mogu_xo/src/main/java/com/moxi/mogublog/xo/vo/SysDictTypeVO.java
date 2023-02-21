@@ -12,7 +12,7 @@ import lombok.Data;
  * SysDictTypeVO
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年2月15日21:20:03
  */
 @Data

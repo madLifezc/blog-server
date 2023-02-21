@@ -29,7 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
  * 用户表 RestApi
  * </p>
  *
- * @author 陌溪
+ * @author MadLife
  * @since 2020年1月4日21:29:09
  */
 @RestController

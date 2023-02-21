@@ -3,7 +3,7 @@ package com.moxi.mougblog.base.global;
 /**
  * Redis常量基类
  *
- * @author: 陌溪
+ * @author: MadLife
  * @create: 2020-03-06-20:43
  */
 public class BaseRedisConf {
@@ -21,7 +21,7 @@ public class BaseRedisConf {
     /**
      * Redis分隔符
      */
-    public final static String SEGMENTATION = ":";
+    public final static String  SEGMENTATION = ":";
 
     /**
      * 等于

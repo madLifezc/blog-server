@@ -11,8 +11,8 @@ spring:
   boot:
     admin:
       ui:
-        title: 蘑菇博客监控中心
-        brand: 蘑菇博客监控中心
+        title: MadLife博客监控中心
+        brand: MadLife博客监控中心
       notify:
         mail:
           enabled: false
@@ -22,8 +22,8 @@ spring:
 
   #mail
   mail:
-    username: mogublog@163.com
-    password: a1313375 #授权码开启SMTP服务里设置
+    username: zc16621103382@163.com
+    password: RNINAQDBQBGMDPSA #授权码开启SMTP服务里设置
     host: smtp.163.com
 
     properties:

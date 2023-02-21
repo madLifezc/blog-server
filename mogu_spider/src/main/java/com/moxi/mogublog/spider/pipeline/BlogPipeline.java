@@ -44,7 +44,7 @@ public class BlogPipeline implements Pipeline {
                 blog.setCollectCount(0);
                 blog.setStatus(EStatus.ENABLE);
                 blog.setAdminUid("1f01cd1d2f474743b241d74008b12333");
-                blog.setAuthor("陌溪");
+                blog.setAuthor("MadLife");
                 blog.setArticlesPart("蘑菇博客");
                 blog.setBlogSortUid("6a1c7a50c0e7b8e8657949bf02d5d0ca");
                 blog.setLevel(0);
