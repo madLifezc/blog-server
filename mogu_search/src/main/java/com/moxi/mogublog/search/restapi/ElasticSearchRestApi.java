@@ -101,12 +101,14 @@ public class ElasticSearchRestApi {
         Long page = 1L;
         Long row = 10L;
         Integer size = 0;
-
+        /**
+         * 循环查询数据库博客信息初始化到es索引库中
+         */
         do {
             
             // 查询blog信息
             String result = webFeignClient.getNewBlog(page, row);
-
+            
             //构建blog
             List<Blog> blogList = WebUtils.getList(result, Blog.class);
             size = blogList.size();

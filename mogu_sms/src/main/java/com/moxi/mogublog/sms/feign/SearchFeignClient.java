@@ -52,7 +52,7 @@ public interface SearchFeignClient {
      */
     @PostMapping("/search/deleteSolrIndexByUid")
     public String deleteSolrIndexByUid(@RequestParam(required = true) String uid);
-
+    
     /**
      * 通过uids删除Solr博客索引
      *

@@ -30,7 +30,7 @@ spring:
           lowerCaseServiceId: true #使用小写服务名，默认是大写
       routes: # 配置路由规则, 
         - id: api-eureka
-          uri: lb://mogu-eureka
+          uri: lb://mogu-eureka #loadbanlance
           predicates:
             - Path=/api-eureka/**
 
