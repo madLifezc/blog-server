@@ -14,7 +14,7 @@ public class TestRestApi {
 
     @GetMapping("/test")
     public String test(String val){
-        log.info("val:" + val);
+        log.info("val的值:" + val);
         return val ;
     }
 
