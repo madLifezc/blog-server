@@ -33,6 +33,7 @@ nohup.out
 **/.settings/**
 **/bin/**
 **/.mymetadata
+**/.DS_Store
 **/.metadata
 **/.myumldata
 **/sqlChange/**
