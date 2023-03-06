@@ -53,6 +53,8 @@ spring:
           uri: lb://mogu-admin
           predicates:
             - Path=/api-admin/**
+          filters:
+            - StripPrefix=1 #前缀，在当前路径匹配中表示去掉第一个前缀
 
         - id: api-sms
           uri: lb://mogu-sms

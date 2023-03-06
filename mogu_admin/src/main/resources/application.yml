@@ -1,8 +1,8 @@
 #app
 server:
   port: 8601
-  servlet:
-    context-path: /mogu-admin
+#  servlet:
+#    context-path: /mogu-admin
 
 #阿里大于
 templateCode: SMS_XXXXXX #短信模板编号
@@ -16,7 +16,7 @@ file:
 
 # 邮箱验证
 moguBlog:
-  email: mogublog@163.com
+  email: 1065145700@qq.com
 
 # 蘑菇博客登录默认密码
 DEFAULE_PWD: mogu2018
