@@ -1,6 +1,8 @@
 #app
 server:
   port: 8601
+  servlet:
+    context-path: /mogu-admin
 
 #阿里大于
 templateCode: SMS_XXXXXX #短信模板编号

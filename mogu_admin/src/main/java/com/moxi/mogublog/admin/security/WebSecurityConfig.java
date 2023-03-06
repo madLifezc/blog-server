@@ -98,7 +98,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                         "/swagge‌​r-ui.html",
                         "/actuator/**",
                         "/druid/**",
-                        "test/**" //测试接口
+                        "/test/**" //测试接口
                 ).permitAll()
                 // 对于获取token的rest api要允许匿名访问
                 .antMatchers("/auth/**",
