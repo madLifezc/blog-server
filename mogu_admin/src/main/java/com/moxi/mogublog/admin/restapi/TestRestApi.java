@@ -7,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @RestController
 @RequestMapping("/test")
 @Api(value = "测试接口", tags = {"测试接口"})
@@ -31,6 +34,22 @@ public class TestRestApi {
         log.info("server port:" + port);
         return "server port:" + port ;
     }
+
+    /**
+     * 模拟接口超时
+     * @return
+     */
+    @GetMapping("/timeout")
+    public String timeout(){
+        try {
+            Thread.sleep(3100);
+            log.info("模拟接口超时");
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return "请求成功";
+    }
+
 
 
 }

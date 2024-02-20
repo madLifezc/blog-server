@@ -11,6 +11,8 @@ spring:
     user:
       name: user
       password: password123
+  main:
+    allow-bean-definition-overriding: true
 
   boot:
     admin:
@@ -55,6 +57,10 @@ spring:
             - Path=/api-admin/**
           filters:
             - StripPrefix=1 #前缀，在当前路径匹配中表示去掉第一个前缀
+            - name: Hystrix #降级配置
+              args:
+                name: defaultfallback
+                fallbackUri: forward:/defaultfallback
 
         - id: api-sms
           uri: lb://mogu-sms
@@ -77,24 +83,23 @@ spring:
 #  MaxAutoRetriesNextServer: 1
 #  
 ##设置最大容错超时时间
-#hystrix:
-#  threadpool:
-#    default:
-#      coreSize: 100
-#      maximumSize: 5000
-#      allowMaximumSizeToDivergeFromCoreSize: true
-#      maxQueueSize: -1
-#  command:
-#    default:
-#      circuitBreaker:
-#        foreOpen: false
-#      execution:
-#        timeout:
-#          enabled: true
-#        isolation:
-#          thread:
-#            timeoutInMilliseconds: 900000
-#            
+# 针对全局配置
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+    # 对单独的 Hystrix 的 commandKey 设置超时时间
+    defaultfallback:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+
 #eureka相关配置
 eureka:
   client:

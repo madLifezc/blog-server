@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="069f7db7-3805-41e3-a775-49eff8bc2aac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/nohup.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/auth/AuthFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/auth/JwtProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/gateway/HystrixFallbackHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/gateway/RouterFunctionConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/restapi/FallbackHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_admin/src/main/java/com/moxi/mogublog/admin/restapi/TestRestApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_admin/src/main/java/com/moxi/mogublog/admin/restapi/TestRestApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/GateWayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/GateWayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_gateway/src/main/java/com/moxi/mogublog/gateway/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mogu_zipkin/mogu_zipkin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mogu_zipkin/mogu_zipkin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +37,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2.jar!/com/baomidou/mybatisplus/core/metadata/IPage.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-rabbit/2.2.2.RELEASE/spring-rabbit-2.2.2.RELEASE.jar!/org/springframework/amqp/rabbit/core/RabbitTemplate.class" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/corretto-1.8.0_282/Contents/Home/src.zip!/java/util/UUID.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,76 +57,112 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Notification.DoNotAsk-null": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/workspaces/zc_blog/blog-server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "spring.configuration.checksum": "29ea4d7e5e8e539689bfe54a7f3fb25f",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Notification.DoNotAsk-null&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/workspaces/zc_blog/blog-server&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;69160e59ed97bdbb86007f18759e22dd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GateWayApplication">
-    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+  <component name="RunManager" selected="应用程序.MailListener">
+    <configuration name="MailListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.moxi.mogublog.sms.listener.MailListener" />
+      <module name="mogu_sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxi.mogublog.sms.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mogu_admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.admin.AdminApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mogu_eureka" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.eureka.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mogu_gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.gateway.GateWayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="mogu_monitor" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.monitor.MonitorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PictureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="PictureApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mogu_picture" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.picture.PictureApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxi.mogublog.picture.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mogu_search" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.search.SearchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxi.mogublog.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mogu_sms" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.sms.SmsApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxi.mogublog.sms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -123,13 +174,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="mogu_web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.moxi.mogublog.web.WebApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.moxi.mogublog.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebApplication" />
+        <item itemvalue="Spring Boot.SmsApplication" />
+        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.PictureApplication" />
+        <item itemvalue="应用程序.MailListener" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,6 +251,42 @@
       <workItem from="1677812245307" duration="1239000" />
       <workItem from="1677821456422" duration="1771000" />
       <workItem from="1678065022452" duration="2971000" />
+      <workItem from="1678088426184" duration="5430000" />
+      <workItem from="1678094481610" duration="2357000" />
+      <workItem from="1678151536806" duration="16093000" />
+      <workItem from="1678173283856" duration="9542000" />
+      <workItem from="1678238035215" duration="621000" />
+      <workItem from="1678239536157" duration="1856000" />
+      <workItem from="1678343558050" duration="1876000" />
+      <workItem from="1679018530462" duration="1845000" />
+      <workItem from="1679881227572" duration="759000" />
+      <workItem from="1679894314826" duration="1000" />
+      <workItem from="1680155265857" duration="1257000" />
+      <workItem from="1680594181034" duration="66000" />
+      <workItem from="1680742754104" duration="1449000" />
+      <workItem from="1680752944218" duration="598000" />
+      <workItem from="1680763734964" duration="1551000" />
+      <workItem from="1681180776856" duration="630000" />
+      <workItem from="1681182257036" duration="1344000" />
+      <workItem from="1681892224054" duration="610000" />
+      <workItem from="1682232988746" duration="645000" />
+      <workItem from="1694842489250" duration="3917000" />
+      <workItem from="1694847181487" duration="2633000" />
+      <workItem from="1695089810834" duration="9339000" />
+      <workItem from="1696746303827" duration="3142000" />
+      <workItem from="1697001536542" duration="276000" />
+      <workItem from="1697003812728" duration="3148000" />
+      <workItem from="1698888412366" duration="402000" />
+      <workItem from="1699075252137" duration="3855000" />
+      <workItem from="1699079306125" duration="316000" />
+      <workItem from="1699079655517" duration="307000" />
+      <workItem from="1699079989615" duration="590000" />
+      <workItem from="1699368536450" duration="3000" />
+      <workItem from="1702366130458" duration="49000" />
+      <workItem from="1702430006109" duration="2000" />
+      <workItem from="1702880108846" duration="167000" />
+      <workItem from="1702950116357" duration="874000" />
+      <workItem from="1703066393245" duration="148000" />
     </task>
     <servers />
   </component>
@@ -224,7 +326,7 @@
         <line-breakpoint type="java-method">
           <url>file://$PROJECT_DIR$/mogu_xo/src/main/java/com/moxi/mogublog/xo/service/BlogService.java</url>
           <line>146</line>
-          <properties class="com.moxi.mogublog.xo.service.BlogService" method="addBlog" />
+          <properties class="com.moxi.mogublog.xo.service.BlogService" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
@@ -232,7 +334,16 @@
           <line>59</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mogu_search/src/main/java/com/moxi/mogublog/search/service/ElasticSearchService.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
